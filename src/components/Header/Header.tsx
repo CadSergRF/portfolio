@@ -7,13 +7,13 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logo_zone}>
-        <Image src="/Logo2.svg" width={60} height={80} alt="Логотип автора" />
+        <Image src="/images/Logo2.svg" width={60} height={80} alt="Логотип автора" />
         <h1 className={styles.title}>Сергей Евдокимов</h1>
       </div>
       <nav>
         <ul className={styles.menu}>
           <li>
-            <Link href="#mystack" className={styles.menu_item}>
+            <Link href="#AboutMe" className={styles.menu_item}>
               Привет
             </Link>
           </li>
@@ -30,6 +30,11 @@ const Header = () => {
           <li>
             <Link href="#mystack" className={styles.menu_item}>
               Опыт работы
+            </Link>
+          </li>
+          <li>
+            <Link href="#mystack" className={styles.menu_item}>
+              Образование
             </Link>
           </li>
         </ul>
