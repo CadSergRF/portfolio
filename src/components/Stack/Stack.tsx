@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Stack = () => {
   return (
-    <section className={styles.container}>
+    <section id="#stack" className={styles.container}>
       <article className={styles.title__zone}>
         <h2 className={styles.title__zone_title}>Используемый стек и технологии</h2>
         <p className={styles.title__zone_text}>

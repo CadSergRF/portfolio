@@ -18,22 +18,22 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link href="#mystack" className={styles.menu_item}>
+            <Link href="#portfolio" className={styles.menu_item}>
               Портфолио
             </Link>
           </li>
           <li>
-            <Link href="#mystack" className={styles.menu_item}>
+            <Link href="#stack" className={styles.menu_item}>
               Стек
             </Link>
           </li>
           <li>
-            <Link href="#mystack" className={styles.menu_item}>
+            <Link href="#expirience" className={styles.menu_item}>
               Опыт работы
             </Link>
           </li>
           <li>
-            <Link href="#mystack" className={styles.menu_item}>
+            <Link href="#education" className={styles.menu_item}>
               Образование
             </Link>
           </li>
