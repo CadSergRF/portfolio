@@ -1,9 +1,14 @@
 import React from 'react';
+import styles from './Portfolio.module.css';
 
-type Props = {};
-
-const Portfolio = (props: Props) => {
-  return <div>Portfolio</div>;
+const Portfolio = () => {
+  return (
+    <section className={styles.container}>
+      <article className={styles.title__zone}>
+        <h2 className={styles.title__zone_title}>Портфолио</h2>
+      </article>
+    </section>
+  );
 };
 
 export { Portfolio };

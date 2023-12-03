@@ -1,5 +1,7 @@
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 2fr;
   border-bottom: 1px solid #999;
+  width: 100%;
+  min-height: 400px;
 }
