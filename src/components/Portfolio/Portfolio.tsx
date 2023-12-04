@@ -9,14 +9,36 @@ const Portfolio = () => {
         <h2 className={styles.title__zone_title}>Портфолио</h2>
       </article>
       <div className={styles.projects}>
-        <Card image="/images/preview/1.jpeg" />
-        <Card image="/images/preview/2.jpg" />
-        <Card image="/images/preview/3.webp" />
-        <Card image="/images/preview/3.webp" />
-        <Card image="/images/preview/2.jpg" />
-        <Card image="/images/preview/1.jpeg" />
-        <Card image="/images/preview/1.jpeg" />
-        <Card image="/images/preview/3.webp" />
+        <Card
+          image="/images/preview/concordia_1.jpg"
+          name="Приложение для разрешения споров"
+          linkDemo=""
+          linkCode="https://github.com/CadSergRF/my-dispute-resolution"
+        />
+        <Card
+          image="/images/preview/navigator_1.jpg"
+          name="Сервис поиска маршрута"
+          linkDemo="https://cadsergrf.github.io/Leaflet-OSRM/"
+          linkCode="https://github.com/CadSergRF/Leaflet-OSRM"
+        />
+        <Card
+          image="/images/preview/films_1.jpg"
+          name="Сервис поиска фильмов"
+          linkDemo="https://github.com/CadSergRF/movies-explorer-frontend"
+          linkCode="https://github.com/CadSergRF/movies-explorer-api"
+        />
+        <Card
+          image="/images/preview/foto-service.jpg"
+          name="Сервис размещения фотографий"
+          linkDemo="https://cadsergrf.github.io/mesto/"
+          linkCode="https://github.com/CadSergRF/react-mesto-api-full-gha"
+        />
+        <Card
+          image="/images/preview/travel.jpg"
+          name="Сайт о путешествии по России"
+          linkDemo="https://cadsergrf.github.io/cs_russian-travel/"
+          linkCode="https://github.com/CadSergRF/cs_russian-travel"
+        />
       </div>
     </section>
   );
