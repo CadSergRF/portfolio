@@ -23,11 +23,19 @@ const AboutMe = () => {
           <p className={styles.contacts__title}>EMAIL</p>
           <p className={styles.contacts__text}>cadsergrf@yandex.ru</p>
           <p className={styles.contacts__title}>Telegram</p>
-          <Link href="https://t.me/cadserg" className={styles.contacts__text}>
+          <Link
+            href="https://t.me/cadserg"
+            className={styles.contacts__text}
+            rel="noopener noreferrer"
+            target="_blank">
             @CadSerg
           </Link>
           <p className={styles.contacts__title}>GitHub</p>
-          <Link href="https://github.com/CadSergRF" className={styles.contacts__text}>
+          <Link
+            href="https://github.com/CadSergRF"
+            className={styles.contacts__text}
+            rel="noopener noreferrer"
+            target="_blank">
             Профиль github
           </Link>
         </div>
