@@ -8,11 +8,16 @@
   position: relative;
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 
 .image {
   object-fit: cover;
   -o-object-fit: cover;
+}
+
+.image:hover {
+  scale: 1.04;
 }
 
 .name__container {

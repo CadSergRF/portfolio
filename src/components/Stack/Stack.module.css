@@ -6,6 +6,8 @@
   min-height: 400px;
   padding: 30px 0;
   gap: 60px;
+  border-top: 55px solid transparent;
+  margin-top: -55px;
 }
 
 .title__zone_title {

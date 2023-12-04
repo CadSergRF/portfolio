@@ -28,7 +28,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link href="#expirience" className={styles.menu_item}>
+            <Link href="#experience" className={styles.menu_item}>
               Опыт работы
             </Link>
           </li>

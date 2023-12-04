@@ -2,12 +2,16 @@
   width: 100%;
   border-bottom: 1px solid #999;
   padding: 30px 0;
+  border-top: 55px solid transparent;
+  margin-top: -55px;
+  border-top: 55px solid transparent;
+  margin-top: -55px;
 }
 
 .title__zone_title {
   font-size: 23px;
   font-weight: 700;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
 }
 
 .projects {

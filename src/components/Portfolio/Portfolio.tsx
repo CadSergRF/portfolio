@@ -4,7 +4,7 @@ import { Card } from './Card/Card';
 
 const Portfolio = () => {
   return (
-    <section className={styles.container}>
+    <section id="portfolio" className={styles.container}>
       <article className={styles.title__zone}>
         <h2 className={styles.title__zone_title}>Портфолио</h2>
       </article>

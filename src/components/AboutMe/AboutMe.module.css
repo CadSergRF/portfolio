@@ -3,6 +3,9 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   border-bottom: 1px solid #999;
+  border-top: 55px solid transparent;
+  margin-top: -55px;
+  padding-top: 70px;
 }
 
 .title {

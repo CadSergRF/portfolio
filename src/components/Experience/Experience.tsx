@@ -4,7 +4,7 @@ import { WorkCard } from './WorkCard/WorkCard';
 
 const Experience = () => {
   return (
-    <section id="#experience" className={styles.container}>
+    <section id="experience" className={styles.container}>
       <article className={styles.title__zone}>
         <h2 className={styles.title__zone_title}>Опыт работы</h2>
         <p className={styles.title__zone_text}>

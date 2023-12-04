@@ -4,7 +4,7 @@ import { WorkCard } from '../Experience/WorkCard/WorkCard';
 
 const Education = () => {
   return (
-    <section id="#education" className={styles.container}>
+    <section id="education" className={styles.container}>
       <article className={styles.title__zone}>
         <h2 className={styles.title__zone_title}>Образование</h2>
         <p className={styles.title__zone_text}>
