@@ -1,11 +1,15 @@
 .container {
-  margin-top: 80px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 'info image';
+  gap: 20px;
   border-bottom: 1px solid #999;
   border-top: 55px solid transparent;
   margin-top: -55px;
-  padding-top: 70px;
+  padding-top: 80px;
+}
+
+.info__block {
+  grid-area: info;
 }
 
 .title {
@@ -44,7 +48,41 @@
   text-decoration: underline;
 }
 
-.image {
+.image_container {
+  grid-area: image;
   align-self: center;
   justify-self: end;
+}
+
+.image {
+  width: 350px;
+  height: auto;
+}
+
+@media screen and (max-width: 1020px) {
+  .title {
+    line-height: 1.3;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    grid-template-areas:
+      'image'
+      'info';
+  }
+
+  .image_container {
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    padding-top: 115px;
+  }
+}
+
+@media screen and (max-width: 380px) {
 }

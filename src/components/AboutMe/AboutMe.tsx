@@ -6,7 +6,7 @@ import Link from 'next/link';
 const AboutMe = () => {
   return (
     <section id="AboutMe" className={styles.container}>
-      <article>
+      <article className={styles.info__block}>
         <h2 className={styles.title}>Привет. Меня зовут Сергей.</h2>
         <p className={styles.text}>
           Я web-разработчик из Кемерово - Кузбасс. В настоящее время я работаю web-разработчиком над
@@ -40,8 +40,15 @@ const AboutMe = () => {
           </Link>
         </div>
       </article>
-      <div className={styles.image}>
-        <Image src="/images/avatar.jpeg" width={350} height={350} alt="Логотип автора" />
+      <div className={styles.image_container}>
+        <Image
+          priority={true}
+          src="/images/avatar.jpeg"
+          className={styles.image}
+          width={300}
+          height={300}
+          alt="Логотип автора"
+        />
       </div>
     </section>
   );

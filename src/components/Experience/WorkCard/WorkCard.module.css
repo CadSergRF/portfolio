@@ -33,3 +33,16 @@
   font-size: 14px;
   font-weight: 400;
 }
+
+@media screen and (max-width: 720px) {
+  .title {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .title__position {
+    width: min-content;
+  }
+}

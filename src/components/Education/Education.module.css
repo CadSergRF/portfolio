@@ -25,3 +25,13 @@
   flex-direction: column;
   gap: 40px;
 }
+@media screen and (max-width: 720px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .education {
+    gap: 30px;
+  }
+}

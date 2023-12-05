@@ -20,6 +20,7 @@
 }
 
 .title {
+  display: block;
   width: max-content;
   color: #000;
   font-size: 27px;
@@ -43,4 +44,52 @@
 .menu_item:hover {
   color: rgb(52, 41, 96);
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1020px) {
+  .title {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header {
+    display: block;
+    height: 110px;
+    padding: 0 30px;
+  }
+
+  .logo_zone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: min-content;
+    margin: 0 auto;
+  }
+
+  .title {
+    display: block;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .header {
+    height: 80px;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .title {
+    font-size: 20px;
+  }
 }

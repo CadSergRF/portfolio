@@ -14,7 +14,7 @@ const Card = ({ image, name, linkDemo, linkCode }: TCard) => {
   return (
     <div className={styles.container}>
       <div className={styles.image__container}>
-        <Image src={image} fill alt="Превью приложения" className={styles.image} />
+        <Image priority={true} src={image} fill alt="Превью приложения" className={styles.image} />
       </div>
       <div className={styles.name__container}>
         <h3 className={styles.name}>{name}</h3>

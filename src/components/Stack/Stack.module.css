@@ -37,6 +37,7 @@
 .stack__zone_icons {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 10px;
 }
 
@@ -49,4 +50,29 @@
   text-align: center;
   font-size: 12px;
   font-weight: 500;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    display: block;
+  }
+
+  .title__zone_text {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .container {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .stack__zone {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 380px) {
 }

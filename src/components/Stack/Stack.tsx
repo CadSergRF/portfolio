@@ -38,6 +38,34 @@ const Stack = () => {
               <figcaption className={styles.stack__zone_icon_text}>Type Script</figcaption>
             </figure>
             <figure className={styles.stack__zone_icon}>
+              <Image src="/images/icons/react.svg" width={40} height={40} alt="HTML5" />
+              <figcaption className={styles.stack__zone_icon_text}>React</figcaption>
+            </figure>
+            <figure className={styles.stack__zone_icon}>
+              <Image src="/images/icons/reacthookform.svg" width={40} height={40} alt="HTML5" />
+              <figcaption className={styles.stack__zone_icon_text}>React Hook Form</figcaption>
+            </figure>
+            <figure className={styles.stack__zone_icon}>
+              <Image src="/images/icons/nextjs.svg" width={40} height={40} alt="HTML5" />
+              <figcaption className={styles.stack__zone_icon_text}>NextJS</figcaption>
+            </figure>
+            <figure className={styles.stack__zone_icon}>
+              <Image src="/images/icons/redux.svg" width={40} height={40} alt="HTML5" />
+              <figcaption className={styles.stack__zone_icon_text}>Redux Toolkit</figcaption>
+            </figure>
+            <figure className={styles.stack__zone_icon}>
+              <Image src="/images/icons/nodejs.svg" width={40} height={40} alt="HTML5" />
+              <figcaption className={styles.stack__zone_icon_text}>NodeJS</figcaption>
+            </figure>
+            <figure className={styles.stack__zone_icon}>
+              <Image src="/images/icons/express.svg" width={40} height={40} alt="HTML5" />
+              <figcaption className={styles.stack__zone_icon_text}>Express</figcaption>
+            </figure>
+            <figure className={styles.stack__zone_icon}>
+              <Image src="/images/icons/mongoDB.svg" width={40} height={40} alt="HTML5" />
+              <figcaption className={styles.stack__zone_icon_text}>MongoDB</figcaption>
+            </figure>
+            <figure className={styles.stack__zone_icon}>
               <Image src="/images/icons/docker.svg" width={40} height={40} alt="HTML5" />
               <figcaption className={styles.stack__zone_icon_text}>Docker</figcaption>
             </figure>
@@ -46,40 +74,12 @@ const Stack = () => {
               <figcaption className={styles.stack__zone_icon_text}>ESLint</figcaption>
             </figure>
             <figure className={styles.stack__zone_icon}>
-              <Image src="/images/icons/express.svg" width={40} height={40} alt="HTML5" />
-              <figcaption className={styles.stack__zone_icon_text}>Express</figcaption>
-            </figure>
-            <figure className={styles.stack__zone_icon}>
               <Image src="/images/icons/git.svg" width={40} height={40} alt="HTML5" />
               <figcaption className={styles.stack__zone_icon_text}>GIT</figcaption>
             </figure>
             <figure className={styles.stack__zone_icon}>
-              <Image src="/images/icons/mongoDB.svg" width={40} height={40} alt="HTML5" />
-              <figcaption className={styles.stack__zone_icon_text}>MongoDB</figcaption>
-            </figure>
-            <figure className={styles.stack__zone_icon}>
-              <Image src="/images/icons/nextjs.svg" width={40} height={40} alt="HTML5" />
-              <figcaption className={styles.stack__zone_icon_text}>NextJS</figcaption>
-            </figure>
-            <figure className={styles.stack__zone_icon}>
-              <Image src="/images/icons/nodejs.svg" width={40} height={40} alt="HTML5" />
-              <figcaption className={styles.stack__zone_icon_text}>NodeJS</figcaption>
-            </figure>
-            <figure className={styles.stack__zone_icon}>
-              <Image src="/images/icons/react.svg" width={40} height={40} alt="HTML5" />
-              <figcaption className={styles.stack__zone_icon_text}>React</figcaption>
-            </figure>
-            <figure className={styles.stack__zone_icon}>
               <Image src="/images/icons/vscode.svg" width={40} height={40} alt="HTML5" />
               <figcaption className={styles.stack__zone_icon_text}>VSCode</figcaption>
-            </figure>
-            <figure className={styles.stack__zone_icon}>
-              <Image src="/images/icons/redux.svg" width={40} height={40} alt="HTML5" />
-              <figcaption className={styles.stack__zone_icon_text}>Redux Toolkit</figcaption>
-            </figure>
-            <figure className={styles.stack__zone_icon}>
-              <Image src="/images/icons/reacthookform.svg" width={40} height={40} alt="HTML5" />
-              <figcaption className={styles.stack__zone_icon_text}>React Hook Form</figcaption>
             </figure>
           </div>
         </div>

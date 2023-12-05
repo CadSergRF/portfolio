@@ -1,5 +1,6 @@
 .main {
   max-width: 1400px;
+  min-width: 320px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -7,4 +8,10 @@
   padding: 0 70px;
   margin: 0 auto;
   min-height: 100vh;
+}
+
+@media screen and (max-width: 720px) {
+  .main {
+    padding: 0 30px;
+  }
 }
