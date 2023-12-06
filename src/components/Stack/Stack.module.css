@@ -24,7 +24,7 @@
 .stack__zone {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 15px;
+  gap: 50px;
 }
 
 .stack__zone_title {
