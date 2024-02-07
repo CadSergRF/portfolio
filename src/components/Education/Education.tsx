@@ -1,6 +1,7 @@
-import React from 'react';
-import styles from './Education.module.css';
 import { WorkCard } from '../Experience/WorkCard/WorkCard';
+import { education } from '@/data/education';
+
+import styles from './Education.module.css';
 
 const Education = () => {
   return (
@@ -13,19 +14,15 @@ const Education = () => {
         </p>
       </article>
       <div className={styles.education}>
-        <WorkCard
-          position="Frontend разработчик"
-          company="Яндекс.Практикум"
-          dates="сентябрь 2022 - август 2023"
-          text="Обучение по технологиям и направлениям: HTML, CSS, SCSS, JavaScript, адаптивная и кросс-браузерная верстка,
-          БЭМ, создание приложений с использованием React, Redux Toolkit, TypeScript, NodeJS, ExpressJS, MongoDB"
-        />
-        <WorkCard
-          position="Инженер электронной техники"
-          company="ТУСУР"
-          dates="1997 - 2002"
-          text=""
-        />
+        {education.map((item) => (
+          <WorkCard
+            key={item.position}
+            position={item.position}
+            company={item.company}
+            dates={item.dates}
+            text={item.text}
+          />
+        ))}
       </div>
     </section>
   );

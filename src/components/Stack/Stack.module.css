@@ -27,31 +27,6 @@
   gap: 50px;
 }
 
-.stack__zone_title {
-  font-size: 20px;
-  font-weight: 700;
-  padding-left: 12px;
-  padding-bottom: 15px;
-}
-
-.stack__zone_icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.stack__zone_icon {
-  width: 60px;
-  text-align: center;
-}
-
-.stack__zone_icon_text {
-  text-align: center;
-  font-size: 12px;
-  font-weight: 500;
-}
-
 @media screen and (max-width: 900px) {
   .container {
     display: block;

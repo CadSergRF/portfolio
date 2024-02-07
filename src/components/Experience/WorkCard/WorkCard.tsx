@@ -1,12 +1,6 @@
 import React from 'react';
 import styles from './WorkCard.module.css';
-
-type TWorkCard = {
-  position: string;
-  company: string;
-  dates: string;
-  text: string;
-};
+import { TWorkCard } from '@/types/types';
 
 const WorkCard = ({ position, company, dates, text }: TWorkCard) => {
   return (

@@ -1,0 +1,17 @@
+.stack__zone_icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.stack__zone_icon {
+  width: 60px;
+  text-align: center;
+}
+
+.stack__zone_icon_text {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+}
