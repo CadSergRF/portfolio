@@ -10,9 +10,15 @@ const Portfolio = () => {
       </article>
       <div className={styles.projects}>
         <Card
+          image="/images/preview/tkani.png"
+          name="Интернет-магазин"
+          linkDemo="https://next-tkani-shop.vercel.app/"
+          linkCode="https://github.com/CadSergRF/next-tkani-shop"
+        />
+        <Card
           image="/images/preview/concordia_1.jpg"
           name="Приложение для разрешения споров"
-          linkDemo=""
+          // linkDemo=""
           linkCode="https://github.com/CadSergRF/my-dispute-resolution"
         />
         <Card
@@ -24,8 +30,9 @@ const Portfolio = () => {
         <Card
           image="/images/preview/films_1.jpg"
           name="Сервис поиска фильмов"
-          linkDemo="https://github.com/CadSergRF/movies-explorer-frontend"
-          linkCode="https://github.com/CadSergRF/movies-explorer-api"
+          // linkDemo="https://github.com/CadSergRF/movies-explorer-frontend"
+          // linkCode="https://github.com/CadSergRF/movies-explorer-api"
+          linkCode="https://github.com/CadSergRF/movies-explorer-frontend"
         />
         <Card
           image="/images/preview/foto-service.jpg"

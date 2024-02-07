@@ -49,6 +49,10 @@ const Stack = () => {
               <figcaption className={styles.stack__zone_icon_text}>NextJS</figcaption>
             </figure>
             <figure className={styles.stack__zone_icon}>
+              <Image src="/images/icons/zustand.svg" width={40} height={40} alt="HTML5" />
+              <figcaption className={styles.stack__zone_icon_text}>Zustand</figcaption>
+            </figure>
+            <figure className={styles.stack__zone_icon}>
               <Image src="/images/icons/redux.svg" width={40} height={40} alt="HTML5" />
               <figcaption className={styles.stack__zone_icon_text}>Redux Toolkit</figcaption>
             </figure>

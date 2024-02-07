@@ -41,10 +41,13 @@
 
 .buttons {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   height: 60px;
   justify-items: center;
   align-items: center;
+}
+
+.buttons_two {
+  grid-template-columns: 1fr 1fr;
 }
 
 .link {
