@@ -1,9 +1,8 @@
 .container {
   width: 100%;
+  max-width: 100%;
   border-bottom: 1px solid #999;
   padding: 30px 0;
-  border-top: 55px solid transparent;
-  margin-top: -55px;
   border-top: 55px solid transparent;
   margin-top: -55px;
 }
@@ -16,7 +15,7 @@
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
 
