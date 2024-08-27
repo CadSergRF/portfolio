@@ -1,7 +1,7 @@
 export const education = [
     {
     position: 'Разработчик на JS+React',
-    company: 'Е1 Цифровая академия',
+    company: 'Т1 Цифровая академия',
     dates: 'июль 2024',
   },
   {

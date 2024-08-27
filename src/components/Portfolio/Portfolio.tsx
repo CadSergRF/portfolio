@@ -1,7 +1,7 @@
-import { Card } from './Card/Card';
-import { portfolio } from '@/data/portfolio';
+import { Card } from "./Card/Card";
+import { portfolio } from "@/data/portfolio";
 
-import styles from './Portfolio.module.css';
+import styles from "./Portfolio.module.css";
 
 const Portfolio = () => {
   return (
